@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Wszystkie kontakty:"
+            android:id="@+id/AllContactsTextVIew"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="100dp"
+            android:maxHeight="300dp"
+    />
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wstecz"
+            android:id="@+id/BackFromViewAllContactsMenu"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="100dp"
+            android:width="70dp"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj"
+            android:id="@+id/ViewAllContactsButton"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="220dp"
+            android:width="70dp"
+    />
+
+</RelativeLayout>

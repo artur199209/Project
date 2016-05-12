@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dodaj kontakt"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="80dp"
+            android:width="130dp"
+            android:id="@+id/GoToAddContactMenu"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuń kontakt"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:width="130dp"
+            android:id="@+id/GoToDeleteContactMenu"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aktualizuj kontakt"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:width="130dp"
+            android:id="@+id/GoToUpdateContactMenu"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pokaż wszystkie"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="35dp"
+            android:width="130dp"
+            android:id="@+id/GoToViewAllContactsMenu"/>
+</LinearLayout>
+
